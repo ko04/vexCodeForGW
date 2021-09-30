@@ -49,9 +49,9 @@ void autoControl()
   
   gatherRings.spinFor(3000,degrees,true);
   
-  baseTurnLeft(175,100);
-  baseLeft.spinFor(500,degrees,false);
-  baseRight.spinFor(500,degrees,true);
+  //baseTurnLeft(175,100);
+  //baseLeft.spinFor(500,degrees,false);
+  //baseRight.spinFor(500,degrees,true);
   //baseLeft.stop();
   //baseRight.stop();
   
