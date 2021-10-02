@@ -17,11 +17,9 @@ float frontClawAngle3  = 658;
 //后爪电机角度变量
 float backClawAngle1 = 0;
 float backClawAngle2 = 250;
-/*
 //勾子电机角度变量
 float frontHookAngle1 = 0;
 float frontHookAngle2 = 250;
-*/
 //初始化状态
 float motorInitState = 0;
 //自动用的awp线的角度

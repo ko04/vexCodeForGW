@@ -76,7 +76,6 @@ void driveControl()
   {
     frontClaw.spin(forward,0,percent);
   }
-  /*
   //前面的勾子夹住
   if(Controller1.Axis3.position(percent)>baseMinSpeed){
     frontHook.setVelocity(90,percent);
@@ -86,5 +85,4 @@ void driveControl()
     frontHook.setVelocity(90,percent);
     frontHook.spinToPosition(frontHookAngle1,degrees,false);
   }
-  */
 }

@@ -124,7 +124,6 @@ void backClawAngle(float aimDistance,float motorSpeed,int stateValue=1)
     backClaw.spinFor(forward,aimDistance,degrees,false);
   } 
 }
-/*
 void frontHookcatch(int stateValue = 1){
   if(stateValue ==1){
     frontHook.spinFor(frontHookAngle2,degrees,true);
@@ -138,5 +137,4 @@ void frontHookLoose(int stateValue = 1){
   }else{
     frontHook.spinFor(-frontHookAngle2,degrees,false);
   }
-  */
 }
