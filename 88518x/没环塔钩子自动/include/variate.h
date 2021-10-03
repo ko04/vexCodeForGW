@@ -13,7 +13,7 @@ float gatherRingsSpeed = 0;
 //前爪电机角度变量
 float frontClawAngle1 = 0;
 float frontClawAngle2  = 290;
-float frontClawAngle3  = 658;
+float frontClawAngle3  = 640;
 //后爪电机角度变量
 float backClawAngle1 = 0;
 float backClawAngle2 = 250;

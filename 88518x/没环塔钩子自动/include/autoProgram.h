@@ -2,8 +2,8 @@
 void autoControl()
 {
   motorsInit();
-  baseLeft.setVelocity(85,percent);
-  baseRight.setVelocity(85,percent);
+  baseLeft.setVelocity(80,percent);
+  baseRight.setVelocity(80,percent);
   frontClaw.setVelocity(100,percent);
   backClaw.setVelocity(100,percent);
   gatherRings.setVelocity(100,percent);
@@ -36,10 +36,15 @@ void autoControl()
   */
  //baseLeft.spinFor(-800,degrees,false);
   //baseRight.spinFor(-800,degrees,true);
-  baseTurnLeft(250,100);
+  wait(0.4,seconds);
+  baseTurnLeft(260,100);
+  wait (0.4,seconds);
+  baseLeft.setVelocity(75,percent);
+  baseRight.setVelocity(75,percent);
   while(true){
     //baseRight.spinFor(-200,degrees,false);
     //baseLeft.spinFor(-200,degrees,true);
+    
     baseRight.spin(reverse);
     baseLeft.spin(reverse);
     if(Brain.Timer.value()>2.5){
